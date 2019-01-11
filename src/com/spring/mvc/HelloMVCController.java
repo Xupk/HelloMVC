@@ -10,6 +10,6 @@ public class HelloMVCController {
     @RequestMapping(value="/hello",method = RequestMethod.GET)
     public String printWelcome(ModelMap model) {
         model.addAttribute("msg", "Spring 3 MVC Hello World");
-        return "hello";
+        return "index";
     }
 }
